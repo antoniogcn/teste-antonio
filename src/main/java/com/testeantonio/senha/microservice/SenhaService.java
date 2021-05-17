@@ -2,7 +2,6 @@ package com.testeantonio.senha.microservice;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.testeantonio.senha.regrasenha.RegraSenha;
@@ -10,7 +9,6 @@ import com.testeantonio.senha.regrasenha.RegraSenha;
 @Service
 public class SenhaService {
 
-	@Autowired
 	private List<RegraSenha> regras;
 	
 	public SenhaService(List<RegraSenha> listaRegras) {
