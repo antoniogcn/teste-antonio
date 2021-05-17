@@ -18,7 +18,7 @@ Pontos de validação
 Para ter acesso ao fonte é necessário clonar o projeto do GitHub num diretório de sua preferência:
 
 - cd "diretorio de sua preferencia"
-- git clone https://github.com/condessalovelace/mavenquickstart
+- git clone https://github.com/antoniogcn/teste-antonio.git
 
 ## Executar
 Para executar o projeto, será necessário instalar os seguintes programas:
