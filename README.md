@@ -14,27 +14,34 @@ Pontos de validação
 - Ao menos 1 caracter especial
 - Não possuir caracteres repetidos 
 
-##Começando
+# Heroku
+
+Acessar o endpoint "/api/senha-valida" via Heroku
+
+http://antoniogcn.herokuapp.com/api/valida-senha/?senha=SuaSenhaParaValidar
+
+Substituir SuaSenhaParaValidar pela que que se pretente validar 
+
+Acessar via Swagger 
+
+http://antoniogcn.herokuapp.com/api/valida-senha/swagger-ui.html#/senha-controller/validaUsingGET
+
+#Fonte
+
 Para ter acesso ao fonte é necessário clonar o projeto do GitHub num diretório de sua preferência:
 
 - cd "diretorio de sua preferencia"
 - git clone https://github.com/antoniogcn/teste-antonio.git
 
-## Executar
+# Executar
 Para executar o projeto, será necessário instalar os seguintes programas:
 
 - JDK 1.8: Necessário para executar o projeto Java
 - Maven 3.6.1: Necessário para realizar o build do projeto Java
 
-Acessar o endpoint "/api/senha-valida" na porta 80
-
-Ex : http://localhost:8080/api/senha-valida/?senha=At!1bcdefg
-
-Acessar via Swagger 
-
-Ex: http://localhost:8080/api/valida-senha/swagger-ui.html 
 
 ##Construção
+
 Para construir o projeto com o Maven, executar os comando abaixo:
 
 - mvn clean install
@@ -43,12 +50,3 @@ Para construir o projeto com o Maven, executar os comando abaixo:
 Para rodar os testes, utilize o comando abaixo:
 
 - mvn test
-
-## Persistência
-
-- N/A
-
-
-## Dependência
-
-- N/A
