@@ -26,8 +26,13 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 - JDK 1.8: Necessário para executar o projeto Java
 - Maven 3.6.1: Necessário para realizar o build do projeto Java
 
-##Links
-http://localhost:8080/api/senha-valida/?senha=At!1bcdefg
+Acessar o endpoint "/api/senha-valida" na porta 80
+
+Ex : http://localhost:8080/api/senha-valida/?senha=At!1bcdefg
+
+Acessar via Swagger 
+
+Ex: http://localhost:8080/api/valida-senha/swagger-ui.html 
 
 ##Construção
 Para construir o projeto com o Maven, executar os comando abaixo:
